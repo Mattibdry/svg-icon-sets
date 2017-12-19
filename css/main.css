@@ -2,28 +2,14 @@ html {
   margin: 0;
   background-image: linear-gradient(#ff9500, #ff5e3a);
   background-size: cover;
-}
-
-h1 {
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
 }
-
-h2 {
-  font-family: "Overpass", sans-serif;
-  color: #fff;
-}
-
-p {
-  font-family: "Overpass", sans-serif;
-  color: #fff;
-}
-
 
 .btn {
   border: #fff solid 2px;
   color: #fff;
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
 }
 
 .btn:hover {
@@ -34,4 +20,12 @@ p {
 
 .coms-center {
   border-bottom: rgba(255, 255, 255, .5) 2px solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .part-b {
+    padding-top: 40px;
+  }
+
 }
