@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: linear-gradient(#ff9500, #ff5e3a);
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+  color: #fff;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+  color: #fff;
+}
+
+
+.btn-learnabout {
+  border: #fff solid 2px;
+  color: #fff;
+  font-family: 'Overpass', sans-serif;
+}
+
+.btn-learnabout:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #ff5e3a;
+  border: #fff solid 2px;
+}
+
+.coms-center {
+  border-bottom: rgba(255, 255, 255, 0.5) 2px solid;
+}
